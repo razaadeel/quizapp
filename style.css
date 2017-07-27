@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    font-style: italic;
+}
+div{
+    margin-top: 100px;
+
+}
+input{
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    padding-left: 50px;
+    background: transparent;
+    border: none;
+    background-color: #252525;
+    background-position: 10px;
+    opacity: 0.7;
+}
+input:focus{
+    outline: none;
+    font-weight: bold;
+}
+
+input::-webkit-input-placeholder { color: #F3F2F2; font-weight: bold;}
+input:-moz-placeholder { color:#F3F2F2; } /* FF 4-18 */
+input::-moz-placeholder { color:#F3F2F2; } /* FF 19+ */
+input:-ms-input-placeholder { color:#F3F2F2; }
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; }
+
+#userName{
+    background-image: url("images/user.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+}
+#userPassword{
+    background-image: url("images/key.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position-y: center;
+}
+#userEmail{
+    background-image: url("images/email.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-y: center;
+}
+button {
+    opacity: 0.9;
+    background-color: #37C5D3;
+    border: none;
+    height: 50px;
+    width: 300px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px; 
+    font-weight: 700;
+}
+#buttonSingUp{
+    background-color: #F5384F;
+}
+button:hover{
+    cursor: pointer;
+}
